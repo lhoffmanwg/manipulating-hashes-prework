@@ -18,9 +18,9 @@ def first_challenge
         data.each do |data, details|
           binding_pry
           if details == "strawberry"
-            
-          
-      end    
+            puts "hi"
+          end  
+        end    
     end
   end  
        
