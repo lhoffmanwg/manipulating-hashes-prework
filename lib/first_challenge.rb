@@ -17,7 +17,8 @@ def first_challenge
     if name == "Freddy Mercury"
         data.each do |data, details|
           if data == :favorite_icecream_flavors
-            details.each do |flavor|
+            #details.each do |flavor|
+              
               puts "delete strawberry"
             end    
           end  
