@@ -16,8 +16,10 @@ def first_challenge
   contacts.each do |name, data|
     if name = "Freddy Mercury"
         data.each do |data, details|
-          if 
           binding_pry
+          if details == "strawberry"
+            
+          
       end    
     end
   end  
